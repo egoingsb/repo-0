@@ -2,16 +2,22 @@
 <manifest>                                                                       
     <remote                                                                      
         name="origin"                                                            
-        fetch="git@github.com:egoingsb"/>                                          
+        fetch="ssh://git@github.com/"/>                                          
     <default revision="master" remote="origin"/>                                 
                                                                                  
     <project                                                                     
-        path="repo-1-path"                                                              
-        name="/repo-1.git"
+        path="repo-1"                                                              
+        name="egoingsb/repo-1"
         remote="origin"
         />                                                  
     <project                                                                     
-        path="repo-2-path"                                                                 
-        name="/repo-1.git"
-        remote="origin"/>                                                        
+        path="repo-2"                                                                 
+        name="egoingsb/repo-2"
+        remote="origin"/>
+                                                        
+     
+    <project                                                                     
+        path="repo-0"                                                                 
+        name="egoingsb/repo-0"
+	remote="origin" />
 </manifest> 

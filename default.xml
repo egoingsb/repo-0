@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>                                           
+<manifest>                                                                       
+    <remote                                                                      
+        name="repo-1"                                                            
+        fetch="git@github.com:egoingsb/repo-1.git"/>                                          
+    <remote                                                                      
+        name="repo-2"                                                             
+        fetch="git@github.com:egoingsb/repo-2.git"/>                                           
+    <default revision="master" remote="origin"/>                                 
+                                                                                 
+    <project                                                                     
+        path="repo-1-path"                                                              
+        name="/"
+        remote="repo-1"
+        />                                                  
+    <project                                                                     
+        path="repo-1-path"                                                                 
+        name="/"
+        remote="repo-2"/>                                                        
+</manifest> 

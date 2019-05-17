@@ -15,6 +15,10 @@
         name="egoingsb/repo-2"
         remote="origin"/>
                                                         
+    <project                                                                     
+        path="repo-3"                                                                 
+        name="happydeveloper/repo-3"
+        remote="origin"/>
      
     <project                                                                     
         path="repo-0"                                                                 
